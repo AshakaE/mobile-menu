@@ -442,12 +442,16 @@ input, textarea {
   .container {
     display: none;
   }
+  header, header #desktop-nav ul {
+    flex-basis: 100%;
+  }
   #desktop-nav {
     display: block;
+    width: 200px;
+    height: 100px;
   }
   #desktop-nav ul {
     display: flex;
-    margin-right: 10vw;
   }
   .nav-link {
     font-family: "Inter", sans-serif;
