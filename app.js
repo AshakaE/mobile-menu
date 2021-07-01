@@ -4,9 +4,9 @@ const links = document.querySelector('#desktop-nav');
 menu.addEventListener('click', () => {
   menu.classList.toggle('change');
 
-  if (links.style.display === 'block') {
+  if (links.style.display === 'flex') {
     links.style.display = 'none';
   } else {
-    links.style.display = 'block';
+    links.style.display = 'flex';
   }
 });

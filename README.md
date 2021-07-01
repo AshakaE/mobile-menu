@@ -14,9 +14,9 @@ This is a mobile menu design to show page navigation links.
 
 [Live Link](https://rawcdn.githack.com/AshakaE/mobile-menu/feature/mobile-menu/index.html)
 
-# Authors
+# Author
 
-## Omar Rashad
+## Ashaka Egerega
 - GitHub: [AshakaE](https://github.com/AshakaE)
 - LinkedIn: [AshakaE](https://www.linkedin.com/in/ashakae/)
 

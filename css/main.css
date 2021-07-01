@@ -22,14 +22,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 15px;
   background-color: #3c3a39;
   color: white;
 }
 
-#desktop-nav,
-#desktop-nav ul {
-  display: none;
+.desktop-nav,
+.desktop-nav ul {
+  display: flex;
+  flex-basis: 100%;
 }
 
 #logo {
@@ -430,6 +432,7 @@ textarea {
   justify-content: space-around;
   padding: 5vh;
   filter: invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg) brightness(92%) contrast(82%);
+  -webkit-filter: invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg) brightness(92%) contrast(82%);
 }
 
 @media all and (min-width: 720px) {
@@ -460,17 +463,18 @@ textarea {
     display: none;
   }
 
-  #desktop-nav ul {
+  .desktop-nav ul {
     display: flex;
+    flex-wrap: wrap;
   }
 
   header,
-  header #desktop-nav ul {
-    flex-basis: 100%;
+  header .desktop-nav ul {
+    display: flex;
   }
 
-  #desktop-nav {
-    display: block;
+  .desktop-nav {
+    display: flex;
     width: 200px;
     height: 100px;
   }
