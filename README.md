@@ -1,6 +1,37 @@
-# curriculum-cr-training-mobile-menu
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Mobile-menu
+
+This is a mobile menu design to show page navigation links.
+
+# Built With
+
+- HTML and CSS
+- JavaScript
+- Linters
+
+# Live Demo
+
+[Live Link](https://rawcdn.githack.com/AshakaE/mobile-menu/feature/mobile-menu/index.html)
+
+# Authors
+
+## Omar Rashad
+- GitHub: [AshakaE](https://github.com/AshakaE)
+- LinkedIn: [AshakaE](https://www.linkedin.com/in/ashakae/)
 
 
-This repo host an initial code for the tasks performed during the Code Reviewers training.
+# 🤝Contributing
 
-Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEViw3QasuJLPLVT/Microverse-Student-Potfolio-Templates-Main?node-id=1%3A1471).
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page. Show your support
+
+Give a ⭐️ if you like this project!
+
+# Acknowledgments
+
+- Aziz Mejiri
+
+# 📝 License 
+This project is MIT licensed.
