@@ -32,6 +32,7 @@ header {
 .desktop-nav ul {
   display: flex;
   flex-basis: 100%;
+  flex-direction: column;
 }
 
 #logo {
