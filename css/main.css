@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -26,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -43,7 +45,9 @@ header {
   cursor: pointer;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 30px;
   height: 3px;
   background-color: rgb(255, 255, 255);
@@ -70,7 +74,8 @@ main {
   flex-direction: column;
 }
 
-#intro, #about-me {
+#intro,
+#about-me {
   background-color: #1c1a19;
   color: white;
   position: relative;
@@ -100,7 +105,8 @@ main {
   color: #fff;
 }
 
-.intro-greet, #about-me h2 {
+.intro-greet,
+#about-me h2 {
   color: #ff6b00;
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -147,7 +153,8 @@ main {
   height: 20px;
 }
 
-.about-me-section, .stacks {
+.about-me-section,
+.stacks {
   position: relative;
   padding: 10%;
   padding-bottom: 20vh;
@@ -179,7 +186,8 @@ main {
   border-color: #212121;
 }
 
-.first-card-description, .card {
+.first-card-description,
+.card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -202,7 +210,8 @@ main {
   left: 0;
 }
 
-.description, .white-description {
+.description,
+.white-description {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -211,7 +220,8 @@ main {
   color: #fff;
 }
 
-.blue-color, .blue-color * {
+.blue-color,
+.blue-color * {
   color: #091e42 !important;
 }
 
@@ -290,7 +300,9 @@ li {
   background: rgba(0, 0, 0, 0.349);
 }
 
-#about-me, .about-me-section, .stacks {
+#about-me,
+.about-me-section,
+.stacks {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -396,7 +408,8 @@ textarea {
   outline: none;
 }
 
-input, textarea {
+input,
+textarea {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -426,33 +439,42 @@ input, textarea {
     left: 5px;
     bottom: 35%;
   }
+
   .mobile-icon {
     display: none;
   }
+
   .desktop-icon {
     display: block;
     height: 50%;
   }
+
   #intro {
     height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .container {
     display: none;
   }
-  header, header #desktop-nav ul {
+
+  #desktop-nav ul {
+    display: flex;
+  }
+
+  header,
+  header #desktop-nav ul {
     flex-basis: 100%;
   }
+
   #desktop-nav {
     display: block;
     width: 200px;
     height: 100px;
   }
-  #desktop-nav ul {
-    display: flex;
-  }
+
   .nav-link {
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -464,72 +486,97 @@ input, textarea {
     border: 1px solid transparent;
     transition: 350ms;
   }
+
   .nav-link:hover {
     border: 1px solid #d2d5db;
   }
+
   #logo {
     font-size: 24px;
   }
+
   .first-card {
     display: flex;
   }
+
   .first-card-img {
     width: 40vw;
   }
+
   .cards-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .card {
     width: auto;
     height: 40vh;
     padding: 2%;
     cursor: pointer;
   }
-  .card, .card * {
+
+  .card,
+  .card * {
     transition: all 350ms;
   }
-  .card-link, .card:hover .background-div, .card:hover .card-description {
+
+  .card-link,
+  .card:hover .background-div,
+  .card:hover .card-description {
     opacity: 0;
   }
+
   .card:hover .card-link {
     opacity: 1;
   }
+
   .stacks {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
   }
+
   .about-me-section {
     align-items: flex-start;
   }
-  .about-me-section>* {
+
+  .about-me-section > * {
     max-width: 50vw;
     margin: 15px 0;
   }
+
   #contact {
     display: flex;
     padding: 10% 5%;
   }
+
   #contact h2 {
     width: 30vw;
   }
+
   #fullname {
     display: none;
   }
-  #email, textarea {
+
+  #email,
+  textarea {
     min-width: 50vw;
   }
+
   .name-form {
     display: flex;
     min-width: 100%;
   }
-  #name, #surname {
+
+  #name,
+  #surname {
     min-width: 49%;
   }
+
   .footer-social {
     justify-content: center;
   }
+
   .social-icon {
     width: 3vw;
     height: 32px;
